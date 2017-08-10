@@ -35,14 +35,14 @@ const postList = Vue.extend({
     }
   },
   mounted: function() {
-    this.$http.get('/wpvue/wp-json/wp/v2/posts?per_page=20').then(response => {
+    this.$http.get('./wp-json/wp/v2/posts?per_page=20').then(response => {
     // get body data
     this.posts =  response.body;
     }, response => {
       // error callback
       console.log(response)
     });
-    this.$http.get('/wpvue/wp-json/wp/v2/categories').then(response => {
+    this.$http.get('./wp-json/wp/v2/categories').then(response => {
     // get body data
     this.categories =  response.body;
     // console.log(this.categories);
@@ -178,7 +178,7 @@ const singlePostList = Vue.extend({
     methods: {
       callSinglePost(id){
         var self = this;
-        this.$http.get('/wpvue/wp-json/wp/v2/posts/' + id).then(response => {
+        this.$http.get('./wp-json/wp/v2/posts/' + id).then(response => {
         // get body data
         self.posttitle = response.body;
         this.$route.params.postID = id;
