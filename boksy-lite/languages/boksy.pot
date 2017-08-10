@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: boksy-lite\n"
+"POT-Creation-Date: 2014-12-01 14:54+0700\n"
+"PO-Revision-Date: 2014-12-01 14:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: gbobbd <gbobbd@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../admin/docs/documentation.php:5 ../admin/docs/documentation.php:6
+msgid "Theme Documentation"
+msgstr ""
+
+#: ../admin/docs/documentation.php:40
+#, php-format
+msgid "Hey! Thank you for using %sBoksy%s!"
+msgstr ""
+
+#: ../admin/docs/documentation.php:50
+#, php-format
+msgid ""
+"Please note that this is the %slite version of Boksy%s. As this is meant to "
+"be a teaser for the full version, support is limited to bugs and errors "
+"while using the theme. If you like what you're seeing, check out the full "
+"version with more features %shere%s! Please feel free to email me at "
+"%sgbobbd@gmail.com%s."
+msgstr ""
+
+#: ../admin/docs/documentation.php:73
+msgid "Theme Information"
+msgstr ""
+
+#: ../admin/docs/documentation.php:84
+#, php-format
+msgid "By %sboksy%s"
+msgstr ""
+
+#: ../admin/docs/documentation.php:101
+msgid ""
+"Boksy is a clean and minimal responsiveWordPress theme for personal "
+"bloggers. Putting content first is the key focus in the overall design. It "
+"looks good both on large and small screens. If you are familiar to use "
+"WordPress, you already know how to use Boksy as it is built with the most "
+"essential and standards of the WordPress framework. Personalizing Boksy can "
+"never be easier as it takes advantage of one of WordPress most powerful tool "
+"- the customizer. Please check out the full version if you like it!"
+msgstr ""
+
+#: ../admin/docs/documentation.php:114
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/docs/documentation.php:119
+#, php-format
+msgid ""
+"%sBoksy's%s options are built around WordPress theme customizer which you "
+"can find under %sAppearance > Customize%s. Any editing done using the "
+"customizer will be %supdated live%s. That means no more %sF5%s spamming "
+"(yay)."
+msgstr ""
+
+#: ../admin/docs/documentation.php:133
+msgid ""
+"The options are very easy to understand, so please go ahead and try it right "
+"away."
+msgstr ""
+
+#: ../admin/docs/documentation.php:147
+msgid "Credits"
+msgstr ""
+
+#: ../admin/docs/documentation.php:152
+#, php-format
+msgid "%sBoksy%s is built using the following resources:"
+msgstr ""
+
+#: ../admin/docs/documentation.php:162
+msgid "Icons"
+msgstr ""
+
+#: ../admin/docs/documentation.php:168
+msgid "Fonts"
+msgstr ""
+
+#: ../admin/docs/documentation.php:185
+msgid "License"
+msgstr ""
+
+#: ../admin/docs/documentation.php:190
+#, php-format
+msgid ""
+"Boksy Lite WordPress Theme, Copyright 2014 %sgbobbd%s is distributed under "
+"the terms of the %sGNU General Public License v2%s."
+msgstr ""
+
+#: ../admin/docs/documentation.php:237
+#, php-format
+msgid ""
+"You are using the Lite version of this theme. Get the full version %shere%s!"
+msgstr ""
+
+#: ../archive.php:26
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../archive.php:29
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:32
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:32
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:35
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:38
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:41
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:44
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:47
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:50
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:53
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:56
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:59
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:62
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:65
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Comments are closed"
+msgstr ""
+
+#: ../content-none.php:14
+#, php-format
+msgid "Searched for: %s."
+msgstr ""
+
+#: ../content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Please try "
+"searching something else."
+msgstr ""
+
+#: ../content-page.php:15 ../inc/template-tags.php:102
+#: ../inc/template-tags.php:371
+msgid "Edit"
+msgstr ""
+
+#: ../content-page.php:22 ../content-single.php:25
+msgid "Pages:"
+msgstr ""
+
+#: ../content.php:27
+msgid "Continue reading"
+msgstr ""
+
+#: ../functions.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:91
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: ../functions.php:101
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../functions.php:111
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: ../functions.php:121
+msgid "Footer Widgets 3"
+msgstr ""
+
+#: ../header.php:39
+msgid "Menu"
+msgstr ""
+
+#: ../inc/customizer-colors.php:22
+msgid "Choose Accent Color"
+msgstr ""
+
+#: ../inc/customizer-theme.php:23
+msgid "Upload Logo Image"
+msgstr ""
+
+#: ../inc/customizer-theme.php:31
+msgid "Display site tagline?"
+msgstr ""
+
+#: ../inc/customizer-theme.php:38
+msgid "Display sidebar on blog post page?"
+msgstr ""
+
+#: ../inc/customizer-theme.php:45
+msgid "Footer Text"
+msgstr ""
+
+#: ../inc/customizer.php:38
+msgid "Theme Settings"
+msgstr ""
+
+#: ../inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/extras.php:100
+msgid "Search"
+msgstr ""
+
+#: ../inc/template-tags.php:27
+msgid "Logo"
+msgstr ""
+
+#: ../inc/template-tags.php:77
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../inc/template-tags.php:77
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../inc/template-tags.php:79
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../inc/template-tags.php:100
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:126
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:147
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/template-tags.php:180
+msgid "Written by: "
+msgstr ""
+
+#: ../inc/template-tags.php:186
+msgid ""
+"The author has not yet added any personal or biographical info to his author "
+"profile."
+msgstr ""
+
+#: ../inc/template-tags.php:206
+msgid "Name"
+msgstr ""
+
+#: ../inc/template-tags.php:207
+msgid "Email"
+msgstr ""
+
+#: ../inc/template-tags.php:208
+msgid "Website"
+msgstr ""
+
+#: ../inc/template-tags.php:209
+msgid "Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:242
+msgid "Post"
+msgstr ""
+
+#: ../inc/template-tags.php:243
+msgid "Say Something"
+msgstr ""
+
+#: ../inc/template-tags.php:244
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../inc/template-tags.php:267
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:271
+msgid "<i class=\"fa fa-arrow-circle-left\"></i> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:275
+msgid "Newer posts <i class=\"fa fa-arrow-circle-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:301
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:304
+msgid "<i class=\"fa fa-arrow-circle-left\"></i>%title"
+msgstr ""
+
+#: ../inc/template-tags.php:305
+msgid "%title<i class=\"fa fa-arrow-circle-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:364
+msgid "0 comment"
+msgstr ""
+
+#: ../inc/template-tags.php:364
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:364
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:389
+msgid "Categories"
+msgstr ""
+
+#: ../inc/template-tags.php:397
+msgid "Tags"
+msgstr ""
+
+#: ../inc/template-tags.php:398
+msgid "&nbsp;&nbsp;"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:9
+msgid "Search for:"
+msgstr ""

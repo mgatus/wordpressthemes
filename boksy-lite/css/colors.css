@@ -1,0 +1,26 @@
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.post-edit-link,
+.comment-reply-link,
+#cancel-comment-reply-link,
+.widget_tag_cloud .tagcloud a:hover {
+  background-color: #ff5722;
+}
+.main-navigation .menu > li > a:before,
+.main-navigation .menu > .current-menu-item > a:before,
+.bypostauthor .comment-author:before,
+.bypostauthor .comment-author a:before,
+.error-404-icon i,
+.nothing-found-icon i,
+.widget li:before,
+.back-to-top a:hover {
+  color: #ff5722;
+}
+@media screen and (max-width: 600px) {
+  .menu-toggle.is-active i {
+    color: #ff5722;
+  }
+}

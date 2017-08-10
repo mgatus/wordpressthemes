@@ -1,0 +1,269 @@
+body {
+		background: #fff;
+		font-size: 100%;
+}
+
+.bodyremovescroll {
+		overflow-y: hidden;
+}
+
+.white-wrap, #app, .container_app {
+		float: left;
+		width: 100%;
+}
+
+.site-content {
+		max-width: 70%;
+		width: 70%;
+}
+
+.post-listings {
+		border-bottom: 1px dashed #ccc;
+		padding-bottom: 15px;
+		margin-bottom: 30px;
+		width: 30.333333%;
+		min-height: 400px;
+		box-sizing: border-box;
+		float: left;
+		margin: 7px 15px;
+		position: relative;
+		display: flex;
+}
+
+.post-listings .listing {
+		width: 100%;
+}
+
+.post-listings .listing img {
+		width: 100%;
+}
+
+.post-listings .listing a {
+		cursor: pointer;
+}
+
+.post-listings .listing .categorycontainer {
+		width: auto;
+		color: #fff;
+		display: flex;
+		padding: 2px 5px;
+		border-radius: 2px;
+		position: absolute;
+		bottom: 8px;
+		font-size: 1rem;
+		float: left;
+}
+
+.post-listings .listing .categorycontainer .category {
+		margin: 2px;
+		display: block;
+		float: left;
+		background: #333;
+		padding: 0 6px;
+		border-radius: 3px;
+}
+
+.filter_name_container {
+		text-align: center;
+		margin-bottom: 15px;
+		margin: 0 16px 15px;
+}
+
+.filter_name_container input {
+		width: 100%;
+		border-top: 0;
+		border-right: 0;
+		border-left: 0;
+		border-bottom: 1px solid #ccc;
+}
+
+.active label {
+		color: red;
+}
+
+.catcon {
+		text-align: center;
+		margin: 24px 0;
+}
+
+.catcon .categorysearch, .catcon .categorysearch .filter_category_container {
+		display: flex;
+		justify-content: space-around;
+}
+
+.catcon .categorysearch .filter_category_container {
+		align-items: center;
+}
+
+.catcon .categorysearch .filter_category_container label {
+		margin: 4px 7px 0;
+		font-size: 1.5rem;
+		cursor: pointer;
+}
+
+.catcon .categorysearch input[type="radio"] {
+		display: none;
+}
+
+.preview {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 50%;
+		background: #fff;
+		box-shadow: 5px 0px 17px rgba(0, 0, 0, 0.15);
+		z-index: 1;
+		padding: 3%;
+		overflow-y: auto;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+}
+
+.preview h2 {
+		text-align: center;
+		color: #717171;
+		font-size: 3rem;
+}
+
+.preview .featuredImage {
+		margin: 0 auto;
+		display: block;
+}
+
+.preview .excerpt p {
+		margin-top: 15px;
+		font-size: 1.5rem;
+		color: #333;
+}
+
+.preview .navigation {
+		width: 100%;
+		position: absolute;
+		padding: 21px;
+}
+
+.preview .navigation .prev, .preview .navigation .next {
+		float: left;
+		background: #000;
+		border-radius: 2px;
+		color: #fff;
+		padding: 0;
+		cursor: pointer;
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		outline: none;
+}
+
+.preview .navigation .next {
+		float: right;
+}
+
+.preview .readmore {
+		background: #000;
+		color: #fff;
+		padding: 5px;
+}
+
+.preview .readmore a {
+		color: #fff;
+}
+
+.overlay {
+		background: rgba(128, 128, 128, 0.58);
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+}
+
+.haspreview {
+		pointer-events: none;
+}
+
+button.close-button {
+		position: absolute;
+		top: 32px;
+		right: 0px;
+		width: 30px;
+		padding: 2px;
+}
+
+.nomore {
+		pointer-events: none !important;
+		background: #c1c1c1 !important;
+		color: #717171 !important;
+		opacity: 0.6;
+}
+
+.fade-enter-active, .fade-leave-active {
+		transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+		opacity: 0;
+}
+
+.slidein-enter-active, .slidein-leave-active {
+		transition: all .3s ease;
+}
+
+.slidein-enter, .slidein-leave-to {
+		transform: translateX(10px);
+		opacity: 0;
+}
+
+p {
+		color: #000000;
+		font-size: 1.6rem;
+}
+
+.homepath {
+		text-align: center;
+		width: 100%;
+		display: block;
+}
+
+.previouspath, .nextpath {
+		position: fixed;
+		top: 50%;
+		border: 1px solid pink;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
+}
+
+.previouspath {
+		float: left;
+		left: 2%;
+		cursor: pointer;
+		transition: all ease 0.5s;
+		opacity: 1;
+}
+
+.nextpath {
+		float: right;
+		right: 2%;
+		cursor: pointer;
+		transition: all ease 0.5s;
+		opacity: 1;
+}
+
+.previouspath:hover, .nextpath:hover {
+		background: pink;
+		color: #fff;
+}
+
+.disabled {
+		opacity: 0;
+		pointer-events: none;
+}
