@@ -72,8 +72,8 @@
 						</div>
 
 						<div class="navigation">
-							<button v-on:click="getPrev(previewPrevID)" v-bind:class="previewPrevID" class="prev">&#8249;</button>
-							<button v-on:click="getNext(previewNextID)" v-bind:class="previewNextID" class="next">&#8250;</button>
+							<button v-on:click="getPrev(previewPrevID)" v-bind:class="previewPrevID" class="prev">&#8250;</button>
+							<button v-on:click="getNext(previewNextID)" v-bind:class="previewNextID" class="next">&#8249;</button>
 						</div>
 					</div>
 			</transition>
@@ -86,7 +86,7 @@
 		<div id="single-post">
 
 
-			<span v-bind:id="posttitle.next_post" v-bind:class="{disabled: prevNull}" class="previouspath" @click="populateSingle(posttitle.prev_post)">&#8249;</span>
+			<span v-bind:id="posttitle.next_post" v-bind:class="{disabled: prevNull}" class="previouspath" @click="populateSingle(posttitle.prev_post)">&#8250;</span>
 
 			<div class="homepath">
 				<router-link :to="{ path: '/'}">Go Back</router-link>
@@ -97,7 +97,7 @@
 			<p v-html="singleContent"></p>
 
 
-			<span v-bind:id="posttitle.prev_post" v-bind:class="{disabled: nextNull}" class="nextpath" @click="populateSingle(posttitle.next_post)">&#8250;</span>
+			<span v-bind:id="posttitle.prev_post" v-bind:class="{disabled: nextNull}" class="nextpath" @click="populateSingle(posttitle.next_post)">&#8249;</span>
 
 			<div class="homepath">
 				<router-link :to="{ path: '/'}">Go Back</router-link>
