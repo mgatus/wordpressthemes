@@ -141,7 +141,7 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
   mounted: function() {
     this.$http.get('./wp-json/wp/v2/posts?per_page=20').then(response => {
     // get body data
-    this.posts =  response.body;
+    this.posts =  response.body.reverse();
     }, response => {
       // error callback
       console.log(response)
