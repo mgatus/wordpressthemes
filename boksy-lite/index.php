@@ -106,4 +106,4 @@
 		</div>
 	</template>
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
