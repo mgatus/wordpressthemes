@@ -23,7 +23,7 @@
 	<template id="post-list-template">
 			<div class="container_app">
 				<transition name="fade">
-					<div class="overlay" v-if="show"></div>
+					<div class="overlay" v-if="show" @click="closeit"></div>
 				</transition>
 				<!-- Filter by Name  -->
 				<div class="filter_name_container">
