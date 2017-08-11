@@ -165,20 +165,8 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
     }
     ,
     activeMe: function (e) {
-      // let liParent = document.querySelectorAll('.categorysearch');
       let liChildren = document.querySelectorAll('.categorysearch .filter_category_container');
-      // console.log(liChildren);
-      console.log('test');
-
       liChildren[0].classList.remove('active');
-      // $('.filter_category_container').removeClass("active");
-
-      // for(let i=1; i < liChildren.length ; i++) {
-      //
-      //   let li = liChildren[i];
-      //   li.classList.remove('active');
-      // }
-
       e.currentTarget.classList.add('active');
 
     },
@@ -201,17 +189,10 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
            self.previewNextID = value.next_post;
            self.previewPrevID = value.prev_post;
          }
+
          self.currentPostId = value.id;
          self.show = true;
          parentHtml[0].classList.add('bodyremovescroll');
-
-        //  for(let i=0; i < parentHtml.length ; i++) {
-        //    let x = parentHtml[i];
-        //    x.classList.add('bodyremovescroll');
-        //  }
-        //  parentHtml.classList.add('bodyremovescroll');
-        //  $('html').addClass('bodyremovescroll');
-
        }
       });
     },
@@ -232,11 +213,7 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
     },
     closeit : function() {
       let parentHtml = document.querySelectorAll('html');
-
-      for(let i=0; i < parentHtml.length ; i++) {
-        let x = parentHtml[i];
-        x.classList.remove('bodyremovescroll');
-      }
+      parentHtml[0].classList.remove('bodyremovescroll');
       this.show = false;
     }
   },
