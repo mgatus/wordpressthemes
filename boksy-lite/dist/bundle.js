@@ -171,8 +171,8 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
 
     },
     populatePreview : function(id) {
-      let parentHtml = document.querySelectorAll('html');
       var self = this;
+      let parentHtml = self.querySelect('html');
       self.posts.map(function(value, key) {
        if(id+"" === value.id+"") {
          self.postTitle = value.title.rendered;
@@ -196,7 +196,9 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
        }
       });
     },
-
+    querySelect: function(elemSel) {
+      return document.querySelectorAll(elemSel);
+    },
     getThePost: function(event) {
       var self = this;
       var targetId,id
@@ -212,7 +214,8 @@ const postList = __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_dist_vue___defaul
       self.populatePreview(id);
     },
     closeit : function() {
-      let parentHtml = document.querySelectorAll('html');
+      var self = this;
+      let parentHtml = self.querySelect('html');
       parentHtml[0].classList.remove('bodyremovescroll');
       this.show = false;
     }
